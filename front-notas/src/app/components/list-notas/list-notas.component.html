@@ -1,0 +1,10 @@
+<ul>
+  <li class="card" *ngFor="let nota of notas">
+    <div class="card-header">{{nota.title}}</div>
+    <div class="card-body">
+      <p>Id: {{nota.id}}</p>
+      <p class="card-text">{{nota.content}}</p>
+      <a href="#" class="btn btn-delete">Go somewhere</a>
+    </div>
+  </li>
+</ul>
