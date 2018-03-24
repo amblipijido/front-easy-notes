@@ -6,6 +6,7 @@ import { AddNoteCardComponent } from '../app/components/add-note-card/add-note-c
 const routes: Routes = [
   { path: '', component: ListNotasComponent },
   { path: 'add', component: AddNoteCardComponent}
+  { path: 'edit', component: AddNoteCardComponent}
 ];
 
 @NgModule({
