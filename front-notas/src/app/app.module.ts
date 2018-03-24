@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ListNotasComponent } from './components/list-notas/list-notas.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { AddNoteCardComponent } from './components/add-note-card/add-note-card.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ListNotasComponent,
-    AddNoteCardComponent
+    AddNoteCardComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
